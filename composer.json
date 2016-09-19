@@ -1,0 +1,13 @@
+{
+    "name": "root/emailparser",
+    "type": "project",
+    "require": {
+        "yangqi/htmldom": "dev-master",
+        "rmccue/requests": ">=1.0"
+    },
+    "minimum-stability": "dev",
+
+    "autoload": {
+        "psr-4": {"": "src/"}
+    }
+}

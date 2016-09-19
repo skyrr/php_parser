@@ -1,0 +1,110 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "923e80deb1b66eb516d3f80b5faf6b41",
+    "content-hash": "5bf1d98ebcb096ab655b99b0154f4b48",
+    "packages": [
+        {
+            "name": "rmccue/requests",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rmccue/Requests.git",
+                "reference": "fb5b51797ff881dd67f630cf9fd9e14b757a9e29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rmccue/Requests/zipball/fb5b51797ff881dd67f630cf9fd9e14b757a9e29",
+                "reference": "fb5b51797ff881dd67f630cf9fd9e14b757a9e29",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "requests/test-server": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Requests": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan McCue",
+                    "homepage": "http://ryanmccue.info"
+                }
+            ],
+            "description": "A HTTP library written in PHP, for human beings.",
+            "homepage": "http://github.com/rmccue/Requests",
+            "keywords": [
+                "curl",
+                "fsockopen",
+                "http",
+                "idna",
+                "ipv6",
+                "iri",
+                "sockets"
+            ],
+            "time": "2016-08-18 01:24:21"
+        },
+        {
+            "name": "yangqi/htmldom",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yangqi/Htmldom.git",
+                "reference": "eee67c01f0a82c6c5e6252880d382e586e331da7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yangqi/Htmldom/zipball/eee67c01f0a82c6c5e6252880d382e586e331da7",
+                "reference": "eee67c01f0a82c6c5e6252880d382e586e331da7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Yangqi\\Htmldom": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "yangqi",
+                    "email": "i@yangqi.me"
+                }
+            ],
+            "description": "Simple Html Dom Parser for Laravel 4",
+            "keywords": [
+                "HTML Parser",
+                "laravel"
+            ],
+            "time": "2015-09-10 13:45:37"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "yangqi/htmldom": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
